@@ -1,0 +1,40 @@
+body {
+    background-size: cover; /* Ajustar la imagen al tamaño de la ventana */
+    background-repeat: no-repeat; /* Evitar la repetición de la imagen */
+    background-attachment: fixed; /* Fijar la imagen de fondo */
+    font-family: Arial, sans-serif; /* Fuente elegante para todo el cuerpo */
+}
+
+table {
+    width: 80%;
+    margin: 20px auto; /* Centro la tabla horizontalmente */
+    border-collapse: collapse;
+    border: 2px solid #4CAF50; /* Borde sólido verde */
+    font-size: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+caption {
+    font-size: 24px; /* Tamaño de fuente más grande para el título */
+    font-weight: bold; /* Título en negrita */
+    margin-bottom: 10px;
+}
+
+th, td {
+    padding: 15px; /* Más espacio dentro de las celdas */
+    text-align: center;
+    border: 1px solid #ddd; /* Borde sólido gris claro */
+}
+
+thead th {
+    background-color: #4CAF50; /* Fondo verde para encabezados */
+    color: white; /* Texto blanco en encabezados */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Fondo gris claro para filas impares */
+}
+
+tbody tr:hover {
+    background-color: #ddd; /* Cambio de color al pasar el cursor sobre las filas */
+}

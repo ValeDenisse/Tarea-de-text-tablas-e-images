@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black; /* Establece el color de fondo a negro */
+    color: white; /* Cambia el color del texto según sea necesario */
+}
+
+
+.encabezados {
+    text-align: center; /* Centra los elementos horizontalemente */
+}
+
+.encabezados h1 {
+    text-align:center; /* Alinea el texto a la izquierda */
+}
+
+.encabezados p {
+    margin-bottom: 0; /* Elimina el margen inferior de los párrafos */
+}
+
+.contenido {
+    text-align: center;
+    padding-top: 100px; /* Espacio desde la parte superior */
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo semi-transparente para el botón */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Color de fondo semi-transparente al pasar el mouse */
+}
+.Salto_de_linea{
+    text-align: center;
+}
